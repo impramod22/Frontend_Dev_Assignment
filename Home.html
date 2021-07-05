@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <link rel="stylesheet" href="./CSS/style.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>FrontEnd Developer Assignment</title>
+</head>
+<body>
+    <div class="chat_box_one">
+        <div class="chat_box_two">
+            <div class="heading">
+                <h2>IRIS</h2>
+                <h3>Hello</h3>
+                <img src="waving-hand.png" alt="wave">
+                <p>I am Iris, a Virtual Assistant How may I help you?</p>
+            
+            </div>
+        </div>
+        <div class="chat">
+            <div class="que">
+                <p><strong>Frequently Asked Questions</strong>
+                    <span></span>
+                    <span>?</span></p>
+                
+            </div>
+            <div class="text_box">
+            <div class="text_box1" id="bo">
+                <div class="eclip1"></div>
+                <p>Can I redeem my FB before the original term?</p>
+            </div> 
+            <div class="text_box2" id="bt">
+                <div class="eclip1"></div>
+                <p>How do I pay my Credit card bill?</p>
+            </div>
+            <div class="text_box3" id="btt">
+                <p>How can I get my Account Statement?</p>
+                <div class="eclip1"></div>
+            </div>
+            <div class="text_box4" id="bf">
+                <p>What is the tenure of Fixed Deposit?</p>
+                <div class="eclip1"></div>
+            </div>
+        </div>
+            <div class="button">
+                <i class='far fa-comment-alt'></i>
+                <i class='far fa-comment-alt' id="com_two">
+                    <span class="dot"></span>
+                    <span class="dott"></span></i>
+                <p>Start a New Conversation</p>
+            </div>
+            
+
+        </div>
+        <div class="logo">
+            <i class="fas fa-robot"></i>
+            
+        </div>
+
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/be1749df65.js" crossorigin="anonymous"></script>
+    <!-- Optional script for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function()
+        {
+            $('.chat_box_two').hide().delay(1000).fadeIn(5000);
+            $('.heading').hide().delay(5000).fadeIn('slow');
+            $('.logo').hide().delay(5000).fadeIn('slow');
+            $('.chat').hide().delay(6000).fadeIn('slow');
+            $('#bo').hide().delay(7000).fadeIn('slow');
+            $('#bt').hide().delay(8000).fadeIn('slow');
+            $('#btt').hide().delay(9000).fadeIn('slow');
+            $('#bf').hide().delay(10000).fadeIn('slow');
+            $('.button').hide().delay(11000).fadeIn('slow');
+        });
+        
+    </script>
+</body>
+</html>

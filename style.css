@@ -1,0 +1,330 @@
+@media (max-width:998px)
+{
+    html{
+        font-size: 55%;
+    }
+}
+@media (max-width:768px)
+{
+    html{
+        font-size: 45%;
+    }
+}
+@media (min-width:360px)
+{
+    html{
+        font-size: 35%;
+    }
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body
+{
+    background: gray;
+    /* display: flex; */
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    bottom: -20%;
+    /* justify-content: center;
+    align-items: center; */
+}
+.chat_box_one
+{
+    position: absolute;
+    width: 416px;
+    height: 650px;
+    background: #fff;
+    border-radius: 25px;
+
+}
+.chat_box_two
+{
+    position: absolute;
+    width: 416px;
+    height: 278px;
+    left: 0px;
+    top: -1px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background: linear-gradient(123.75deg, #F5821F 1.87%, #FF5C00 120.46%);
+}
+h2
+{
+    position: absolute;
+    width: 53px;
+    height: 39px;
+    left: 56px;
+    top: 19px;
+    color: #FFFFFF;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+}
+h3
+{
+    position: absolute;
+    width: 54px;
+    height: 29px;
+    left: 56px;
+    top: 65px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+img
+{
+    position: absolute;
+    top: 68.08px;
+    left: 127px;
+    width: 21.75px;
+    height: 23.75px;
+}
+.chat_box_two p
+{
+    position: absolute;
+    width: 228px;
+    height: 46px;
+    left: 56px;
+    top: 104px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    /* or 128% */
+    color: #FFFFFF;
+}
+.chat
+{
+    position: absolute;
+    width: 390px;
+    height: 400px;
+    left: 13px;
+    top: 199px;
+    color: #000;
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+.logo 
+{
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 38px;
+    top: 165px;
+
+    background: linear-gradient(180deg, #FF7600 0%, #FF5C00 100%);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+}
+.logo .fas
+{
+    position: absolute;
+    left: 14px;
+    top: 15px;
+    width: 36px;
+    height: 30px;
+    font-size: 32px;
+    color: white;
+    
+    /* background: #FFFFFF; */
+
+}
+.que
+{
+    position: absolute;
+    width: 188px;
+    height: 20px;
+    left: 26px;
+    top: 50px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18.23px;
+    color: #2D2D2D;
+}
+.que span
+{
+    position: absolute;
+    left: 200px;
+    top: 0;
+    width: 21px;
+    height: 21px;
+    /* font-size: 18px; */
+    color: #FF7600;
+    border-radius: 50px;
+    text-align: center;
+
+    background: rgba(247, 183, 49, 0.12);
+}
+.que span:nth-child(2)
+{
+    position: absolute;
+    left: 200px;
+    top: -4px;
+    font-size: 18px;
+    color: #FF7600;
+    text-align: center;
+}
+.text_box1
+{
+    position: absolute;
+    width: 339px;
+    height: 50px;
+    left: 26px;
+    top: 79px;
+
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* visibility: hidden; */
+}
+.text_box2
+{
+    position: absolute;
+    width: 339px;
+    height: 50px;
+    left: 25px;
+    top: 138px;
+
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+.text_box3
+{
+    position: absolute;
+    width: 339px;
+    height: 50px;
+    left: 26px;
+    top: 197px;
+
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+.text_box4
+{
+    position: absolute;
+    width: 339px;
+    height: 50px;
+    left: 25px;
+    top: 256px;
+
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+.button
+{
+    position: absolute;
+    width: 268px;
+    height: 44px;
+    left: 61px;
+    top: 335px;
+    background: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+}
+.button p
+{
+    position: absolute;
+    width: 168px;
+    height: 18px;
+    left: 59px;
+    top: 13px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #2D2D2D;
+}
+.eclip1
+{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 8px;
+    top: 21px;
+    border-radius: 50%;
+    border: none;
+    background: rgba(255, 118, 0, 0.8);
+}
+.text_box p
+{
+    position: absolute;
+    width: 251px;
+    height: 21px;
+    left: 26px;
+    top: 14px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #2D2D2D;
+}
+.button .far
+{
+    position: absolute;
+    left: 28px;
+    top: 15.44px;
+    height: 16px;
+    width: 40px;
+    font-size: 15px;
+    border-radius: 0px;
+}
+.button #com_two
+{
+    position: absolute;
+    left: 35px;
+    top: 18px;
+    height: 13px;
+    width: 12px;
+    font-size: 16px;
+    transform: scaleX(-1);
+}
+.dot 
+{
+    position: absolute;
+    left: 6px;
+    top: 5px;
+    height: 1px;
+    width: 6px;
+    background: #2D2D2D;
+}
+.dott 
+{
+    position: absolute;
+    left: 6px;
+    top: 3px;
+    height: 1px;
+    width: 6px;
+    background: #2D2D2D;
+}
